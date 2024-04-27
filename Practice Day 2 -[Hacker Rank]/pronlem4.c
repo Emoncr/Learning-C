@@ -2,14 +2,20 @@
 int main()
 {
     int A;
+    scanf("%d", &A);
+
     long long int B;
+    scanf("%lld", &B);
+
     float C;
+    scanf("%f", &C);
+
     char D;
-    scanf("%d %lld %f  %c", &A, &B, &C, &D);
+    scanf("%c", &D);
+
     printf("%d\n", A);
     printf("%lld\n", B);
     printf("%0.2f\n", C);
-    printf("%c", D);
-
+    printf("%c\n", D);
     return 0;
 }
